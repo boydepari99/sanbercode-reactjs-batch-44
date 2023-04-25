@@ -38,20 +38,20 @@ const Tugas10 = () => {
 
     console.log(data)
 
-    const handleIndexScore = (res) => {
+    const handleIndexScore = (param) => {
         // var index = res.score
 
-        // if(index >= 80){
-        //     console.log("A")
-        //   }else if(index >=70){
-        //     console.log("B")
-        //   }else if(index >=60){
-        //     console.log("C")
-        //   }else if(index >=50){
-        //     console.log("D")
-        //   }else {
-        //     console.log("E")
-        //   }
+        if(param >= 80){
+            return("A")
+          }else if(param >=70 && param < 80){
+            return("B")
+          }else if(param >=60 && param < 70){
+            return("C")
+          }else if(param >=50 && param < 60){
+            return("D")
+          }else{
+           return("E")
+          }
     }
 
     return(
@@ -92,7 +92,7 @@ const Tugas10 = () => {
                                 {res.score}
                             </Table.Cell>
                             <Table.Cell>
-                                {handleIndexScore(res.index)}
+                                {handleIndexScore(res.score)}
                             </Table.Cell>
                             </Table.Row>
 
