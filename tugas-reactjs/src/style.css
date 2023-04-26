@@ -9,10 +9,10 @@
 .container{
     text-align: left;
     padding-left: 100px;
-    width: 50%;
+    width: 75%;
     padding : 20px;
     margin: 20px;
-    margin-left: 300px;
+    margin-left: 200px;
     box-shadow: -1px 6px 18px 4px rgba(9,6,1,1);
     -webkit-box-shadow: -1px 6px 18px 4px rgba(9,6,1,1);
     -moz-box-shadow: -1px 6px 18px 4px rgba(9,6,1,1);
